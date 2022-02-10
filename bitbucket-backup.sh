@@ -11,7 +11,7 @@ for i in reponame1 reponame2 reponame3 ;
 
 do 
 
-#Mention reponame1 and reponame2 under if condition if it requite to take backup with branches
+#Mention reponame1 and reponame2 under if condition if it require to take backup with branches
 
 if [ "$i" = "reponame1-totake-backup-with-branches" ]  ||  [ "$i" = "reponame2totakewithbranches" ] ; 
 then
